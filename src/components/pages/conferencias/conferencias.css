@@ -1,0 +1,12 @@
+.contain{
+    text-align: center;
+}
+.content-conference{
+    
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.list-conference{
+    
+    display: flex;
+}
