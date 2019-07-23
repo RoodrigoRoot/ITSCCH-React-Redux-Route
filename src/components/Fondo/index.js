@@ -1,7 +1,8 @@
 import React from 'react'
 import "./fondo.css"
 import calendario from '../images/calendario.svg'
-import {Link, BrowserRouter} from 'react-router-dom'
+import {BrowserRouter} from 'react-router-dom'
+import GPS from '../images/GPS.svg'
 
 const Fondo = () => {
     return (
@@ -17,13 +18,16 @@ const Fondo = () => {
                     <p> de la Carrera de Ingeniería en Tecnologías de la Información y
                      Comunicaciones.
                         </p>
-                    <address><strong>Carretera Ometepec Igualapa Kilómetro 1, De Talapa, 41700 Ometepec, Gro.</strong></address>
+                    <address><strong> <img 
+                    src={GPS}
+                    height='25' 
+                    alt='Ubicacion'/>Carretera Ometepec Igualapa Kilómetro 1, De Talapa, 41700 Ometepec, Gro.</strong></address>
                     <br /> <br />
                         <BrowserRouter>
-                    <Link to="/Conferencias" id="btn-eventos" href="#">Eventos</Link>
+                    <a href="/conferencias" id="btn-eventos" >Eventos</a>
                     </BrowserRouter>
                     <br /><br />
-                    <div><img src={calendario} width="20" /> 2 de Agosto</div>
+                    <div><img src={calendario} width="20" alt='Calendario' /> 2 de Agosto</div>
                 </div>
 
                 <div className="container-tec-logo">

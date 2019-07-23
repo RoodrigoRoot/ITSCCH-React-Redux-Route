@@ -1,3 +1,12 @@
+.card{
+    display: flex;
+    margin:10px;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    
+}
+
 h1{
     margin-left: 20px;
 }

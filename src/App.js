@@ -1,8 +1,6 @@
 import React from 'react';
 
 import './App.css';
-import Navbar from './components/Navbar';
-import Fondo from './components/Fondo';
 import Routers from './router'
 
 

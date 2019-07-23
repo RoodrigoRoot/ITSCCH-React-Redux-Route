@@ -3,3 +3,8 @@
     width: 200px;    
     height: 250px;
 }
+.list-conference{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
