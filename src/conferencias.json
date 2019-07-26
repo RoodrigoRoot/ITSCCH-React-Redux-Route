@@ -1,0 +1,28 @@
+{
+"conferencias":[
+	{
+	"id":1,
+	"nombre":"Mejorando el SEO",
+	"duracion":45,
+	"Ponente":"Fernando",
+	"Twiiter":"@Fernando"
+	},
+
+	{
+	"id":2,
+	"nombre":"ReactJS",
+	"duracion":30,
+	"Ponente":"Rodrigo",
+	"Twiiter":"@Roodrigo"
+	},
+
+	{
+	"id":3,
+	"nombre":"¿Django o NodeJS?",
+	"duracion":1,
+	"Ponente":"Gilberto",
+	"Twiiter":"@Gilberto"
+	}
+
+]
+}

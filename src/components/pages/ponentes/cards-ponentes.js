@@ -1,14 +1,14 @@
 import React from 'react'
 import "./cards.css"
 
-const Card = () => {
+const Card = ({speaker}) => {
+    const {nombre,apellido,job,twiiter} = speaker
     return (
         <div className="cards">
-            <p>Foto</p>
-            <p>Nombre</p>
-            <p>Profesión</p>
-            <p>Twiiter</p>
-            <p>Facebook</p>
+            <p>{nombre}</p>
+            <p>{apellido}</p>
+            <p>{job}</p>
+            <p>{twiiter}</p>
         </div>
     )
 }

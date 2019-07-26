@@ -4,6 +4,8 @@ import calendario from '../images/calendario.svg'
 import {BrowserRouter} from 'react-router-dom'
 import GPS from '../images/GPS.svg'
 
+
+
 const Fondo = () => {
     return (
         <div className="main">
